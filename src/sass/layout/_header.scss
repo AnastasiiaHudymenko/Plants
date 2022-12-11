@@ -1,0 +1,135 @@
+.header {
+  padding-top: 25px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+  @media screen and(min-width: 1440px) {
+    padding-top: 36px;
+  }
+}
+
+.logo__svg {
+  width: 90px;
+  height: 28px;
+  @media screen and (min-width: 768px) {
+    width: 130px;
+    height: 40px;
+  }
+}
+
+.header__icon-burger {
+  width: 18px;
+  height: 14px;
+
+  @media screen and(min-width: 768px) {
+    width: 27px;
+    height: 27px;
+  }
+}
+
+.flex-container-desctop {
+  @media screen and (min-width: 1440px) {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.header__content {
+  display: none;
+
+  @media screen and (min-width: 1440px) {
+    display: flex;
+    gap: 32px;
+  }
+}
+
+.content-mobile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  @media screen and(min-width: 1440px) {
+    margin-right: 182px;
+  }
+}
+
+.header__btn-burger {
+  border: none;
+  margin: 0;
+  padding: 0;
+  background-color: var(--bcg-color-hero);
+
+  cursor: pointer;
+  @media screen and (min-width: 1440px) {
+    display: none;
+  }
+}
+
+.header__nav {
+  @media screen and (min-width: 1440px) {
+    display: flex;
+  }
+}
+
+.header__list {
+  @media screen and (min-width: 1440px) {
+    display: flex;
+    align-items: center;
+    gap: 36px;
+  }
+}
+
+.header__link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.19em;
+  text-transform: uppercase;
+  color: inherit;
+}
+
+.sign-up {
+  display: flex;
+  gap: 24px;
+}
+
+.sign-up__go {
+  width: 110px;
+  height: 40px;
+  padding: 0;
+
+  background-color: inherit;
+  color: inherit;
+
+  border: 1.5px solid #1064e5;
+  border-radius: 43px;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.19em;
+  text-transform: uppercase;
+
+  cursor: pointer;
+}
+
+.sign-up__regist {
+  width: 189px;
+  height: 40px;
+  padding: 0;
+
+  background: #1064e5;
+  color: #ffffff;
+
+  border: none;
+  border-radius: 45px;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.19em;
+  text-transform: uppercase;
+
+  cursor: pointer;
+}
