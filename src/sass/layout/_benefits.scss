@@ -1,0 +1,85 @@
+.benefits {
+  padding-top: 45px;
+  padding-bottom: 45px;
+
+  @media screen and(min-width: 768px) {
+    padding-top: 38px;
+    padding-bottom: 55px;
+  }
+
+  @media screen and(min-width: 1400px) {
+    padding-top: 54px;
+    padding-bottom: 75px;
+  }
+}
+
+.benefits__list {
+  display: flex;
+  gap: 36px;
+
+  @media screen and(max-width: 767px) {
+    flex-wrap: wrap;
+  }
+
+  @media screen and(min-width:768px) {
+    gap: 12px;
+  }
+
+  @media screen and(min-width:1400px) {
+    gap: 54px;
+  }
+}
+
+.benefits__item {
+  display: flex;
+  gap: 33px;
+
+  @media screen and(min-width: 768px) {
+    gap: 15px;
+  }
+  @media screen and(min-width: 1400px) {
+    gap: 20px;
+    align-items: center;
+  }
+}
+
+.benefits__icon {
+  width: 63px;
+  height: 42px;
+
+  @media screen and(min-width: 768px) {
+    width: 88px;
+  }
+  @media screen and(min-width: 1440px) {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+.benefits__title {
+  margin-bottom: 6px;
+
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.1;
+
+  @media screen and(min-width: 768px) {
+    margin-bottom: 5px;
+    line-height: 1.35;
+  }
+  @media screen and(min-width: 1440px) {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+}
+
+.benefits__desc {
+  font-size: 14px;
+  line-height: 1.28;
+
+  @media screen and(min-width: 768px) {
+    font-size: 16px;
+    line-height: 1.31;
+    letter-spacing: 0.04em;
+  }
+}
