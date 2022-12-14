@@ -1,0 +1,23 @@
+.friends {
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  text-align: center;
+}
+
+.friends__title {
+  margin-bottom: 25px;
+  font-family: 'IBM Plex Serif';
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.1;
+}
+
+.friends__list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  margin-bottom: 25px;
+}

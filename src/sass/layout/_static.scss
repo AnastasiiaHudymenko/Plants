@@ -1,0 +1,59 @@
+.static {
+  text-align: center;
+  padding-top: 42px;
+  padding-bottom: 42px;
+  background-color: var(--second-bcg-color);
+
+  @media screen and(min-width: 768px) and(max-width: 1199px) {
+    padding-top: 39px;
+    padding-bottom: 39px;
+  }
+}
+
+.static__sup-title {
+  margin-bottom: 9px;
+  font-size: 36px;
+  line-height: 1;
+
+  @media screen and(min-width: 768px) {
+    font-size: 56px;
+    line-height: 1.16;
+    margin-bottom: 6px;
+  }
+
+  @media screen and(min-width: 1200px) {
+    margin-bottom: 12px;
+    font-size: 73px;
+    line-height: 1.52;
+  }
+}
+
+.static__title {
+  margin-bottom: 13px;
+  font-family: 'IBM Plex Serif';
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.1;
+
+  @media screen and(min-width: 768px) and(max-width: 1199px) {
+    margin-bottom: 6px;
+
+    font-size: 36px;
+    line-height: 1.33;
+  }
+
+  @media screen and(min-width: 1200px) {
+    font-size: 40px;
+    line-height: 1.2;
+  }
+}
+
+.static__desk {
+  font-size: 14px;
+  line-height: 1.55;
+
+  @media screen and(min-width: 768px) {
+    font-size: 18px;
+    line-height: 1.22;
+  }
+}
