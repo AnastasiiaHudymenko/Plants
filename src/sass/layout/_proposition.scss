@@ -1,0 +1,131 @@
+.packages {
+  padding-top: 20px;
+  padding-bottom: 33px;
+
+  @media screen and(min-width: 768px) {
+    padding-top: 27px;
+    padding-bottom: 50px;
+  }
+
+  @media screen and(min-width: 1200px) {
+    padding-top: 57px;
+    padding-bottom: 98px;
+  }
+}
+
+.packages__title {
+  margin-bottom: 20px;
+
+  font-family: 'IBM Plex Serif';
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.1;
+
+  text-align: center;
+
+  @media screen and(min-width: 768px) {
+    font-size: 36px;
+    line-height: 1.33;
+  }
+}
+
+.packages__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+
+  @media screen and(min-width: 768px) {
+    gap: 50px;
+  }
+
+  @media screen and(min-width: 1200px) {
+    flex-wrap: nowrap;
+    gap: 32px;
+  }
+}
+
+.packages__item {
+  width: 256px;
+  background-color: var(--bcg-color-hero);
+}
+
+.packages__wrapper-content {
+  padding: 24px 32px;
+}
+
+.packages__sub-title {
+  margin-bottom: 12px;
+
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.42;
+
+  @media screen and(min-width: 768px) {
+    margin-bottom: 44px;
+  }
+}
+
+.packages__sub-title--individual {
+  margin-bottom: 45px;
+}
+
+.packages__desk {
+  margin-bottom: 17px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+
+  @media screen and(min-width: 768px) {
+    margin-bottom: 12px;
+  }
+}
+
+.packages__desk--individual {
+  margin-bottom: 45px;
+
+  @media screen and(min-width: 768px) {
+    margin-bottom: 84px;
+  }
+}
+
+.packages__price {
+  margin-bottom: 37px;
+  font-size: 18px;
+  line-height: 1.2;
+
+  @media screen and(min-width: 768px) {
+    margin-bottom: 50px;
+  }
+}
+
+.packages__span {
+  display: inline-block;
+  margin-right: 4px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1;
+}
+
+.packages__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 192px;
+  margin: 0 auto;
+  padding: 9px 15px 11px;
+  background: #1064e5;
+  border-radius: 100px;
+  border: none;
+
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.66;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #ebf5f6;
+
+  cursor: pointer;
+}

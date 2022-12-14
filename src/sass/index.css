@@ -609,22 +609,41 @@ textarea:not(:focus):not(:placeholder-shown):valid {
 }
 
 .about__btn-more {
-  display: flex;
-  width: 217px;
-  padding: 10px 56px;
-  border: 1.5px solid #1064e5;
-  border-radius: 46px;
-  font-weight: 700;
-  font-size: 12px;
-  line-height: 2;
-  text-align: center;
-  text-transform: uppercase;
-  color: rgba(6, 18, 36, 0.9);
-  cursor: pointer;
+  display: none;
+}
+.about__btn-more--mobile {
+  display: none;
 }
 @media screen and (max-width: 767px) {
+  .about__btn-more--mobile {
+    display: flex;
+    width: 217px;
+    padding: 10px 56px;
+    margin: 20px auto 0;
+    border: 1.5px solid #1064e5;
+    border-radius: 46px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 2;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgba(6, 18, 36, 0.9);
+  }
+}
+@media screen and (min-width: 768px) {
   .about__btn-more {
-    margin: 0 auto 31px;
+    display: flex;
+    width: 217px;
+    padding: 10px 56px;
+    border: 1.5px solid #1064e5;
+    border-radius: 46px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 2;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgba(6, 18, 36, 0.9);
+    cursor: pointer;
   }
 }
 
@@ -641,23 +660,141 @@ textarea:not(:focus):not(:placeholder-shown):valid {
 }
 
 .about__btn-regist {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .about__btn-regist {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 217px;
+    padding: 13px 56px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 2;
+    text-transform: uppercase;
+    color: #ffffff;
+    background: #1064e5;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+}
+.about__btn-regist--mobile {
+  display: none;
+}
+@media screen and (max-width: 767px) {
+  .about__btn-regist--mobile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 217px;
+    padding: 13px 56px;
+    margin: 20px auto 0;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 2;
+    text-transform: uppercase;
+    color: #ffffff;
+    background: #1064e5;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+}
+
+.packages {
+  padding-top: 20px;
+  padding-bottom: 33px;
+}
+@media screen and (min-width: 768px) {
+  .packages {
+    padding-top: 27px;
+    padding-bottom: 50px;
+  }
+}
+
+.packages__title {
+  margin-bottom: 20px;
+  font-family: "IBM Plex Serif";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.1;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .packages__title {
+    font-size: 36px;
+    line-height: 1.33;
+  }
+}
+
+.packages__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.packages__item {
+  width: 256px;
+  background-color: var(--bcg-color-hero);
+}
+
+.packages__wrapper-content {
+  padding: 24px 32px;
+}
+
+.packages__sub-title {
+  margin-bottom: 12px;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.42;
+}
+
+.packages__sub-title--individual {
+  margin-bottom: 45px;
+}
+
+.packages__desk {
+  margin-bottom: 17px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.packages__desk--individual {
+  margin-bottom: 45px;
+}
+
+.packages__price {
+  margin-bottom: 37px;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.packages__span {
+  display: inline-block;
+  margin-right: 4px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1;
+}
+
+.packages__btn {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 217px;
-  padding: 13px 56px;
-  font-weight: 700;
-  font-size: 12px;
-  line-height: 2;
-  text-transform: uppercase;
-  color: #ffffff;
+  width: 192px;
+  margin: 0 auto;
+  padding: 9px 15px 11px;
   background: #1064e5;
+  border-radius: 100px;
   border: none;
-  border-radius: 50px;
-  cursor: pointer;
-}
-@media screen and (max-width: 767px) {
-  .about__btn-regist {
-    margin: 0 auto 31px;
-  }
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.66;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ebf5f6;
 }/*# sourceMappingURL=index.css.map */
