@@ -4,26 +4,128 @@
     <ul class="friends__list">
       <li class="friends__item">
         <a href="" class="friends__link">
-          <img src="./images/mobile/ukr-prom.png" alt="" class="friends__img" />
+          <picture>
+            <source
+              srcset="
+                ./images/desktop/ukr-prom.png    1x,
+                ./images/desktop/ukr-prom@2x.png 2x
+              "
+              media="(min-width: 1200px)"
+            />
+            <source
+              srcset="
+                ./images/table/ukr-prom.png    1x,
+                ./images/table/ukr-prom@2x.png 2x
+              "
+              media="(min-width: 768px)"
+            />
+            <source
+              srcset="
+                ./images/mobile/ukr-prom.png    1x,
+                ./images/mobile/ukr-prom@2x.png 2x
+              "
+              media="(max-width: 767px)"
+            />
+            <img
+              src="./images/mobile/ukr-prom.png"
+              alt="Логотип компанії Ukr-prom"
+              class="friends__img"
+            />
+          </picture>
         </a>
       </li>
       <li class="friends__item">
         <a href="" class="friends__link">
-          <img
-            src="./images/mobile/new-email.png"
-            alt=""
-            class="friends__img"
-          />
+          <picture>
+            <source
+              srcset="
+                ./images/desktop/new-email.png    1x,
+                ./images/desktop/new-email@2x.png 2x
+              "
+              media="(min-width: 1200px)"
+            />
+            <source
+              srcset="
+                ./images/table/new-email.png    1x,
+                ./images/table/new-email@2x.png 2x
+              "
+              media="(min-width: 768px)"
+            />
+            <source
+              srcset="
+                ./images/mobile/new-email.png   1x,
+                ./images/mobile/new-mail@2x.png 2x
+              "
+              media="(max-width: 767px)"
+            />
+            <img
+              src="./images/mobile/new-email.png"
+              alt="Логотип компанії Нова почта"
+              class="friends__img"
+            />
+          </picture>
         </a>
       </li>
       <li class="friends__item">
         <a href="" class="friends__link">
-          <img src="./images/mobile/n-ix.png" alt="" class="friends__img" />
+          <picture>
+            <source
+              srcset="
+                ./images/desktop/n-ix.png    1x,
+                ./images/desktop/n-ix@2x.png 2x
+              "
+              media="(min-width: 1200px)"
+            />
+            <source
+              srcset="./images/table/n-ix.png 1x, ./images/table/n-ix@2x.png 2x"
+              media="(min-width: 768px)"
+            />
+            <source
+              srcset="
+                ./images/mobile/n-ix.png    1x,
+                ./images/mobile/n-ix@2x.png 2x
+              "
+              media="(max-width: 767px)"
+            />
+            <img
+              src="./images/mobile/n-ix.png"
+              alt="Логотип компанії N-IX"
+              class="friends__img"
+            />
+          </picture>
         </a>
       </li>
       <li class="friends__item">
         <a href="" class="friends__link">
-          <img src="./images/mobile/bread.png" alt="" class="friends__img" />
+          <picture>
+            <source
+              srcset="
+                ./images/desktop/bread.png    1x,
+                ./images/desktop/bread@2x.png 2x
+              "
+              media="(min-width: 1200px)"
+            />
+            <source
+              srcset="
+                ./images/table/bread.png    1x,
+                ./images/table/bread@2x.png 2x
+              "
+              media="(min-width: 768px)"
+            />
+            <source
+              srcset="
+                ./images/mobile/bread.png    1x,
+                ./images/mobile/bread@2x.png 2x
+              "
+              media="(max-width: 767px)"
+            />
+            <img
+              loading="lazy"
+              src="./images/mobile/bread.png"
+              alt="Логотип компанії Хліб"
+              class="friends__img"
+            />
+          </picture>
         </a>
       </li>
     </ul>

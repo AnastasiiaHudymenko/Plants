@@ -907,6 +907,18 @@ textarea:not(:focus):not(:placeholder-shown):valid {
   padding-bottom: 20px;
   text-align: center;
 }
+@media screen and (min-width: 768px) {
+  .friends {
+    padding-top: 43px;
+    padding-bottom: 53px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .friends {
+    padding-top: 47px;
+    padding-bottom: 98px;
+  }
+}
 
 .friends__title {
   margin-bottom: 25px;
@@ -914,6 +926,19 @@ textarea:not(:focus):not(:placeholder-shown):valid {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.1;
+}
+@media screen and (min-width: 768px) {
+  .friends__title {
+    margin-bottom: 44px;
+    font-size: 36px;
+    line-height: 1.33;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .friends__title {
+    font-size: 40px;
+    line-height: 1.2;
+  }
 }
 
 .friends__list {
@@ -923,4 +948,61 @@ textarea:not(:focus):not(:placeholder-shown):valid {
   justify-content: center;
   gap: 50px;
   margin-bottom: 25px;
+}
+@media screen and (min-width: 768px) {
+  .friends__list {
+    gap: 30px;
+    margin-bottom: 62px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .friends__list {
+    gap: 96px;
+    margin-bottom: 36px;
+  }
+}
+
+.intresting {
+  padding-top: 21px;
+  padding-bottom: 31px;
+  background-color: var(--second-bcg-color);
+}
+
+.intresting__title {
+  margin-bottom: 25px;
+  font-family: "IBM Plex Serif";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.1;
+  text-align: center;
+}
+
+.intresting__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.intrestinf__img {
+  margin-bottom: 12px;
+  background: linear-gradient(293.97deg, #ffffff -9.96%, rgba(255, 255, 255, 0) 111.88%);
+}
+
+.intresting__sub-title {
+  margin-bottom: 6px;
+  font-size: 12px;
+  line-height: 1.16;
+}
+
+@media screen and (max-width: 1199px) {
+  .intresting__item--off {
+    display: none;
+  }
+}
+
+.intresting__desc {
+  width: 257px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.12;
 }/*# sourceMappingURL=index.css.map */
