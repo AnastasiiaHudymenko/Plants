@@ -967,6 +967,19 @@ textarea:not(:focus):not(:placeholder-shown):valid {
   padding-bottom: 31px;
   background-color: var(--second-bcg-color);
 }
+@media screen and (min-width: 768px) {
+  .intresting {
+    padding-top: 35px;
+    padding-bottom: 56px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .intersting__container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
 
 .intresting__title {
   margin-bottom: 25px;
@@ -976,11 +989,29 @@ textarea:not(:focus):not(:placeholder-shown):valid {
   line-height: 1.1;
   text-align: center;
 }
+@media screen and (min-width: 768px) {
+  .intresting__title {
+    margin-bottom: 42px;
+    font-size: 36px;
+    line-height: 1.33;
+  }
+}
 
 .intresting__list {
   display: flex;
   flex-wrap: wrap;
   gap: 12px;
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .intresting__list {
+    justify-content: center;
+    gap: 45px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .intresting__list {
+    gap: 28px;
+  }
 }
 
 .intrestinf__img {
@@ -992,6 +1023,12 @@ textarea:not(:focus):not(:placeholder-shown):valid {
   margin-bottom: 6px;
   font-size: 12px;
   line-height: 1.16;
+}
+@media screen and (min-width: 768px) {
+  .intresting__sub-title {
+    font-size: 14px;
+    line-height: 1.71;
+  }
 }
 
 @media screen and (max-width: 1199px) {
@@ -1005,4 +1042,10 @@ textarea:not(:focus):not(:placeholder-shown):valid {
   font-weight: 600;
   font-size: 16px;
   line-height: 1.12;
+}
+@media screen and (min-width: 768px) {
+  .intresting__desc {
+    font-size: 20px;
+    line-height: 1.4;
+  }
 }/*# sourceMappingURL=index.css.map */
