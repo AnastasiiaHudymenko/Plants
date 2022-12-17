@@ -1,0 +1,42 @@
+.info {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+
+  @media screen and(min-width: 768px) {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+
+.info__title {
+  font-family: 'IBM Plex Serif';
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.1;
+  margin-bottom: 20px;
+
+  @media screen and(min-width: 768px) {
+    font-size: 36px;
+    line-height: 1.33;
+    margin-bottom: 40px;
+  }
+
+  @media screen and(min-width:1200px) {
+    margin-bottom: 20px;
+    font-size: 40px;
+    line-height: 1.2;
+  }
+}
+
+.info__video {
+  max-width: 100%;
+
+  @media screen and(min-width: 768px) {
+    width: 668px;
+    height: 320px;
+  }
+  @media screen and(min-width: 1200px) {
+    height: 380px;
+  }
+}
