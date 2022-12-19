@@ -28,11 +28,7 @@ img {
 
 a {
   text-decoration: none;
-}
-
-input:not(:focus):not(:placeholder-shown):valid,
-textarea:not(:focus):not(:placeholder-shown):valid {
-  background-color: rgba(10, 136, 23, 0.361);
+  color: currentColor;
 }
 
 .container {
