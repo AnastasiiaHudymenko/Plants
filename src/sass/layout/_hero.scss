@@ -86,6 +86,7 @@
   letter-spacing: 0.04em;
 
   color: rgba(6, 18, 36, 0.6);
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 250ms;
 }
 
 .decoration-list__item-step {
@@ -100,6 +101,7 @@
   font-weight: 500;
   font-size: 18px;
   line-height: 1.11;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 500ms;
 
   @media screen and(min-width: 768px) {
     font-size: 24px;

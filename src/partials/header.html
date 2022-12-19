@@ -6,7 +6,11 @@
           <use href="/src/images/mobile/symbol-defs.svg#icon-logo-new"></use>
         </svg>
       </a>
-      <button class="header__btn-burger" type="button">
+      <button
+        data-open-menu
+        class="header__btn-burger btn-open-js"
+        type="button"
+      >
         <svg class="header__icon-burger">
           <use href="/src/images/mobile/symbol-defs.svg#icon-burger"></use>
         </svg>
@@ -38,6 +42,26 @@
           <button class="sign-up__regist" type="button">Регистрация</button>
         </li>
       </ul>
+    </div>
+  </div>
+  <div class="backdrop">
+    <div class="modal-menu">
+      <div class="container">
+        <div class="content-wr">
+          <a href="./index.html" class="logo">
+            <svg class="logo__svg">
+              <use
+                href="/src/images/mobile/symbol-defs.svg#icon-logo-new"
+              ></use>
+            </svg>
+          </a>
+          <button class="md-mn-btn btn-close-js" type="button">
+            <svg width="14" height="14">
+              <use href="./images/mobile/symbol-defs.svg#icon-cross"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
     </div>
   </div>
 </header>
