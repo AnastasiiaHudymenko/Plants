@@ -23,7 +23,7 @@
 
 .modal-menu {
   position: absolute;
-
+  display: none;
   width: 100%;
   height: 100vh;
 
@@ -34,3 +34,108 @@
   border: none;
   background-color: inherit;
 }
+
+// REGIST_FORM
+.modal-regist-form {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: absolute;
+  display: none;
+  width: 90%;
+  // height: 100vh;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+
+  background-color: rgba(222, 238, 252, 1);
+}
+
+.container-modal {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.modal-regist__btn-close {
+  display: block;
+  margin-bottom: 20px;
+  margin-left: auto;
+  border: none;
+  background-color: inherit;
+  cursor: pointer;
+}
+
+.modal-regist__title {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.28;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.modal-regust__form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.modal-regist__desc {
+  font-size: 14px;
+  line-height: 2;
+  margin-bottom: 13px;
+}
+
+.modal-regist__input {
+  border: 1px solid rgba(6, 18, 36, 0.9);
+  border-radius: 48px;
+  height: 42px;
+  width: 100%;
+  padding-left: 15px;
+  font-size: 14px;
+}
+
+.modal-regist__btn-send {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 24px;
+  width: 217px;
+  border: none;
+  background: #1064e5;
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.71;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+// MODAL_REGIST_SEND
+
+// .modal-regist-send {
+//   padding-top: 20px;
+//   padding-bottom: 20px;
+//   position: absolute;
+//   // display: none;
+//   width: 90%;
+//   // height: 100vh;
+//   transform: translate(-50%, -50%);
+//   top: 50%;
+//   left: 50%;
+
+//   background-color: rgba(222, 238, 252, 1);
+// }
+
+// .modal-regist-send__btn-close {
+//   display: block;
+//   margin-bottom: 20px;
+//   margin-left: auto;
+//   border: none;
+//   background-color: inherit;
+//   cursor: pointer;
+// }
